@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1f2937;
+}
+
+.business_logo {
+    flex: 7;
+    justify-content: space-around;
+}
+
+a {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
