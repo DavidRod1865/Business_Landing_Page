@@ -27,7 +27,7 @@ nav {
         text-align: center;
     }
 
-#one {
+#sectionOne {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,7 @@ nav {
     margin: 2% 0;
 }
 
-    .section_one {
+    #sectionOne div {
         flex: 1;
         flex-flow: row wrap;
         min-width: 350px;
@@ -44,7 +44,7 @@ nav {
         max-width: 350px;
     }
 
-        .section_one h1 {
+        #sectionOne h1 {
             font-size: 48px;
             color: #F9FAF8;
             margin: 0;
@@ -52,7 +52,7 @@ nav {
             line-height: 40px;
         }
 
-        .section_one p {
+        #sectionOne p {
             margin: 3% 0;
             padding: 0;
             font-size: 14px;
@@ -60,13 +60,13 @@ nav {
         }
 
 
-        .sign-up {
+        #sectionOne button {
             color: white;
             background-color: #3882F6;
             border-radius: 8px;
             border: none;
             padding: 5px;
-            width: 50%;
+            width: 30%;
             font-size: 13px;
         }
 
@@ -134,8 +134,9 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 3% 0;
-
+        margin: 2% 0;
+        max-width: 100%;
+        padding: 2%;
     }
 
     #sectionThree p {
@@ -152,3 +153,52 @@ nav {
         font-weight: 700;
         margin-top: 1%;
     }
+
+footer {
+    height: fit-content;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    footer #sectionFour {
+        width: 100%;
+        width: 750px;
+        height: fit-content;
+        background-color: #3882F6;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        padding: 1%;
+        margin: 5% 0;
+        justify-content: space-around;
+    }
+
+        #sectionFour div {
+            margin: 3% 0;
+            max-width: 100%;
+        }
+
+            #sectionFour span {
+                font-weight: 700;
+            }
+
+            #sectionFour p {
+                font-size: 12px;
+                font-weight: 200;
+                margin: 0;
+                padding: 0;
+            }
+
+        #sectionFour button {
+            color: white;
+            background-color: #3882F6;
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 5px;
+            width: 15%;
+            font-size: 13px;
+        }
